@@ -90,7 +90,7 @@ Deploying the Best Model will allow to interact with the HTTP API service and in
 <br>Application Insights is a very useful tool to detect anomalies, visualize performance.
   * Running the logs.py script enables one to view the logs.
 
-Application Insights Enabled
+Application Insight
  ![](Screenshots/AutoMl_Application_Insights.PNG)
 
  Logs after running the script logs.py
@@ -200,3 +200,4 @@ For the AutoML step,
   * Numeric: Impute missing values, cluster distance, the weight of evidence.
   * DateTime: Several features such as day, seconds, minutes, hours, etc.  
   * Text: Bag of words, pre-trained Word embedding, text target encoding.
+* When we are not using AutoML, we can manually pick out features that are most important to our prediction. We can consider using a library such as Boruta, which works well with a classification problem, to identify weak and/or irrelevant features that can be discarded.
