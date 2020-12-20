@@ -90,7 +90,7 @@ Deploying the Best Model will allow to interact with the HTTP API service and in
 <br>Application Insights is a very useful tool to detect anomalies, visualize performance.
   * Running the logs.py script enables one to view the logs.
 
-Application Insight
+Application Insights Enabled
  ![](Screenshots/AutoMl_Application_Insights.PNG)
 
  Logs after running the script logs.py
